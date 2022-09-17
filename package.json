@@ -1,0 +1,15 @@
+{
+  "name": "mockmilpacs",
+  "version": "1.0.0",
+  "description": "It's like milpacs, but not. AKA: A local cache of milpacs, updated at regular intervals.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typeorm": "^0.3.9"
+  }
+}
