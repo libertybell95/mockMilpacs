@@ -1,15 +1,10 @@
 // A JSON archive of the entirety of milpacs
 
-import { Column, Entity, PrimaryGeneratedColumn, UpdateDateColumn } from 'typeorm';
+import { Column, Entity, PrimaryColumn, UpdateDateColumn } from 'typeorm';
 
 @Entity()
 export default class Milpacs {
-  @PrimaryGeneratedColumn()
-  id: number
-
-  @UpdateDateColumn({
-    unique: true
-  })
+  @PrimaryColumn('date')
   date: Date
 
   @Column('json')
